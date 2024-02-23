@@ -1,0 +1,68 @@
+
+  /* ========================================
+            common css start here 
+  =========================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,p,span{
+    line-height: 0.8;
+}
+
+  /* ========================================
+            common css end here 
+  =========================================== */
+
+  
+  /* ========================================
+            colorGenerate css start here 
+  =========================================== */
+#colorGenerate{
+    margin: auto;
+}
+#colorGenerate .mainBox{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+#colorGenerate .mainBox .mainBoxButton{
+    display: flex;
+    column-gap: 20px;
+}
+#colorGenerate .mainBox .mainBox__btn{
+    padding: 15px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: rgba(226, 43, 43, 0.317);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mainBoxColorCode{
+    padding: 10px 40px;
+    border: solid 2px red;
+}
+#colorGenerate .mainBox .colorGeneratorBox{
+    width: 18%;
+    height: 40vh;
+    background-color: #3299a8;
+}
+
+  
+  /* ========================================
+            colorGenerate css end here 
+  =========================================== */
